@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { SocialButtons } from '../../components/SocialButtons'
+import SocialButtons from '../../components/SocialButtons'
 
 import styles from './styles.module.scss'
 
-export function Home() {
+export default function Landing() {
     return (
         <>
             <Head>

@@ -3,7 +3,7 @@ import { FaFacebookF, FaWhatsapp, FaLinkedinIn, FaInstagram, FaGithub, FaTelegra
 import styles from './styles.module.scss'
 
 
-export function SocialButtons() {
+export default function SocialButtons() {
     return (
         <div className={styles.groupButtons}>
             <a href="https://www.facebook.com/jbjessebrisola" target="_blank">

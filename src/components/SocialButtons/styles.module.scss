@@ -17,6 +17,7 @@
         
         transition: 200ms;
         
+
         &:hover {            
             background: var(--gray-800);
 
@@ -28,5 +29,6 @@
         .icon {
             color: var(--gray-50);
         }
+
     }
 }
