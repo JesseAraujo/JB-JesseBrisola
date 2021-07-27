@@ -2,6 +2,7 @@
 
     --gray-50: #F1F1F1;
     --gray-100: #A5A5A5;
+    --gray-800: #464646;
     --gray-900: #262626;
 
     --backgroun: linear-gradient(to right, #262626, #333333);
@@ -26,8 +27,31 @@
     }
 }
 
-body {
-    background: #262626;
+html {
+    background: var(--backgroun);
+}
+
+body {    
+    background: url('/assets/img-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+
     font: 400 1rem "Roboto", sans-serif;
-    color: #fff;
+    color: var(--gray-50);
+}
+
+.container {
+    max-width: 1080px;
+
+    height: 100vh;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
 }
