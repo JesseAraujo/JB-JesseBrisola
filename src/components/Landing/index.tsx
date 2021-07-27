@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import SocialButtons from '../../components/SocialButtons'
+import SocialButtons from '../SocialButtons'
 
 import styles from './styles.module.scss'
 
