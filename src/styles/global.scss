@@ -15,27 +15,11 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1080px) {
-    html {
-        font-size: 93.75%;
-    }
-}
 
-@media (max-width: 720px) {
-    html {
-        font-size: 87.5%;
-    }
-}
 
-html {
+
+body {        
     background: var(--backgroun);
-}
-
-body {    
-    background: url('/assets/img-back.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:auto;
 
     font: 400 1rem "Roboto", sans-serif;
     color: var(--gray-50);
@@ -50,6 +34,25 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;      
+    
+    background: url('/assets/img-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;    
+}
+
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+
     
 }
