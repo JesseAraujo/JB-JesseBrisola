@@ -32,3 +32,19 @@
 
     }
 }
+
+
+@media (max-width: 720px) {
+    .groupButtons {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 0 30px;
+        }
+    }
+}
